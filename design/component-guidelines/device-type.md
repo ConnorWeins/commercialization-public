@@ -41,9 +41,11 @@ This is to test the pad type reporting of a Windows Precision Touchpad device.
 
 3. If the device is a pressure-pad and PTLogo reports the device as a pressure-pad, then manually pass the iteration.
 
-4. If the device is a non-clickable touchpad, or discrete-pad, and PTLogo reports the device as No Pad Type, then manually pas the iteration.
+4. If the device is a discrete-pad, and PTLogo reports the device as a discrete-pad, then manually pas the iteration.
 
-5. If the device type reported in PTLogo does not match the actual device type, manually fail the iteration.
+5. If the device is a non-clickable touchpad, and PTLogo reports the device as No Pad Type, then manually pass the iteration.
+
+6. If the device type reported in PTLogo does not match the actual device type, manually fail the iteration.
 
 **Common error messages**
 
